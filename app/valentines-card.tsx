@@ -114,10 +114,9 @@ export default function ValentinesCard() {
     "No",
     "Are you sure? 🥺",
     "Pretty please? 💕",
-    "My heart says otherwise...",
+    "Cmon Mel I know you want it",
     "Just one more chance? 🌹",
-    "You're breaking my heart!",
-    "Okay fine... just kidding, pick Yes! 😂",
+    "You can't say no (jk lang)",
   ];
 
   useEffect(() => {
@@ -371,7 +370,7 @@ export default function ValentinesCard() {
               marginBottom: "16px",
             }}
           >
-            A letter for you
+            I wanna tell you something
           </p>
 
           <h1
@@ -389,7 +388,7 @@ export default function ValentinesCard() {
           </h1>
 
           <button className="envelope-btn" onClick={() => setPage("card")}>
-            Open your letter ✦
+            Open ✦
           </button>
         </div>
       </div>
@@ -449,7 +448,7 @@ export default function ValentinesCard() {
               marginBottom: "28px",
             }}
           >
-            February 14th ✦ With all my heart
+            I love you ✦ With all my heart
           </p>
 
           <div
@@ -475,7 +474,7 @@ export default function ValentinesCard() {
               lineHeight: 1.3,
             }}
           >
-            My Dearest,
+            My Melly,
           </h2>
 
           <div
@@ -490,20 +489,38 @@ export default function ValentinesCard() {
             }}
           >
             <p style={{ marginBottom: "20px" }}>
-              From the very first moment I met you, something shifted — the
-              world became a little warmer, a little softer, a little more
-              beautiful.
+              I've been trying to figure out how to write this for a while now
+              Mel, but I still don't think I have the right words. I just want
+              to let you know that I love you with all my heart.
             </p>
             <p style={{ marginBottom: "20px" }}>
-              You have this rare and wonderful way of making every ordinary
-              moment feel like it matters. I find myself thinking about your
-              laugh, your kindness, the way you light up a room without even
-              trying.
+              There's something about you Mel. No matter what I do, no matter
+              what happens, I always get more and more attracted to you. I
+              always think about you, gravitating toward you like some cosmic
+              rule I never can break even if I tried. You are, genuinely, my
+              singularity.
             </p>
-            <p>
-              On this most romantic of days, I wanted to tell you something I've
-              been holding close to my heart...
+            <p style={{ marginBottom: "20px" }}>
+              The longer I get to know you, the more I find myself falling for
+              you. You make me calm, you make me comfortable. You make me feel
+              like the best version of myself, and I genuinely don't think I'd
+              be the person I am today without you in my life.
             </p>
+            <p style={{ marginBottom: "20px" }}>
+              I love watching Detective Conan with you, I love playing Valorant
+              with you, and I love hanging out with you in Deca. I wish it would
+              just stay like that forever. We've seen more mysteries than I can
+              count, but the only case I've never been able to solve is why
+              you're so impossibly easy to love.
+            </p>
+            <p style={{ marginBottom: "20px" }}>
+              I know we've had our ups and downs. We've taken detours, made
+              wrong turns, but somehow both of us still ended up here. I know
+              we've been hanging out and essentially we are already together,
+              but I want more than "essentially." I want the real thing, with
+              you, properly. I want to be the boyfriend who actually deserves
+              you — and I promise, this time, I'm showing up fully for that.
+            </p>{" "}
           </div>
 
           <div style={{ textAlign: "center", marginBottom: "16px" }}>
@@ -511,7 +528,7 @@ export default function ValentinesCard() {
               className="envelope-btn"
               onClick={() => setPage("proposal")}
             >
-              Read on... 🌹
+              Continue... 🌹
             </button>
           </div>
         </div>
