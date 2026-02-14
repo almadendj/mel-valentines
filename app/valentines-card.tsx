@@ -264,7 +264,9 @@ export default function ValentinesCard() {
       }
     `;
     document.head.appendChild(style);
-    return () => document.head.removeChild(style);
+    return () => {
+      document.head.removeChild(style);
+    };
   }, []);
 
   const handleNo = (): void => {
@@ -621,8 +623,8 @@ export default function ValentinesCard() {
                 noPos.x !== null
                   ? {
                       position: "fixed",
-                      left: noPos.x,
-                      top: noPos.y,
+                      left: noPos.x ?? undefined,
+                      top: noPos.y ?? undefined,
                       zIndex: 200,
                       transition: "all 0.15s ease",
                     }
