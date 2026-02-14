@@ -707,7 +707,7 @@ export default function ValentinesCard() {
               marginBottom: "28px",
             }}
           >
-            💝
+            💐
           </div>
 
           <h2
@@ -733,7 +733,7 @@ export default function ValentinesCard() {
               fontStyle: "italic",
             }}
           >
-            This is the beginning of something beautiful.
+            You are everything I could ask for
           </p>
 
           <p
